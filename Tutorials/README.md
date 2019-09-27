@@ -12,7 +12,7 @@
     - `sklearn` [https://scikit-learn.org/stable/install.html]
 
 ## Tutorial 2
-- Uses the keras package to quickly build and train networks.
+- The notebook titled `Tutorial_2.ipynb` uses the keras package to quickly build and train networks.
 - Examines the effects of different minimization algorithms and activation functions.
 - Explores giving a network depth or width.
 - Explains some of important/best practices:
