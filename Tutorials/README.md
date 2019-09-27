@@ -1,20 +1,40 @@
-# Intro To Machine Learning
-This contains information from a talk given to the University or Oregon Society of Physics Students (SPS). The Mathematica notebook shows how Gradient Descent works in the context of a 2-dimensional minimization problem. The associated video shows the minimization happening. There are also two versions of the talk (keynote and power point).
+# Tutorials
 
-## Resources
-### Online classes
-  * [This class](https://www.coursera.org/learn/machine-learning/home/welcome) is a little older, and does the programming in Octave instead of python, but is a great class. This goes over many techniques beyond neural networks.
+## Tutorial 1
+- The notebook titled `Tutorial_1.ipynb` is an initial look at machine learning in general.
+- Reviews how to fit data through linear regression.
+- Introduces how to fit classes with logistic regression.
+- Teaches you the mechanics to build your own Neural Network from scratch. (Well almost, we use `numpy` for matrix multiplication).
+- The notebook uses Python3.
+- Uses the following packages:
+    - `numpy`
+    - `matplotlib`
+    - `sklearn` [https://scikit-learn.org/stable/install.html]
 
-  * [An updated version]( https://www.coursera.org/specializations/deep-learning) does things with python and uses some of the standard tools. It focuses more on deep learning.
+## Tutorial 2
+- Uses the keras package to quickly build and train networks.
+- Examines the effects of different minimization algorithms and activation functions.
+- Explores giving a network depth or width.
+- Explains some of important/best practices:
+    - Metrics for comparing results
+    - Train/Validate/Test sets
+    - Preprocessing
+- Unlike tutorial 1, we do not have control over the random numbers here, so it is not possible to give the expected results
+- Uses Python3 with the following packages:
+    - `numpy`
+    - `matplotlib`
+    - `scipy`
+    - `pandas`
+    - `keras` [https://keras.io/#installation]
+    - `tensorflow` [https://www.tensorflow.org/install/]
+    - `sklearn` [https://scikit-learn.org/stable/install.html]
+    - `pyjet` [https://github.com/scikit-hep/pyjet]
 
-### Python Packages
- * [Scikit-Learn](http://scikit-learn.org/stable/) makes machine learning very easy.
- * [Keras](https://keras.io) is the package I use for neural networks.
+## Answers
+Note that one way to implement the code is given in the Answers notebooks. While you are free to look at these along the way, it is beneficial to come up with the answers on your own.
 
-### Datasets and challenges
-While there is not necessarily much open data in high energy physics, there is a lot of other data to learn from.
- * [Kaggle](https://www.kaggle.com) hosts many datasets and some challenges. Users upload their scripts, which is a great resource for learning the techniques. In addition, one of the hosted challenges was to [use ATLAS data to find the Higgs](https://www.kaggle.com/c/higgs-boson)!
- * [Data Driven](https://www.drivendata.org) is another site which offers challenges and prizes.
- * [HackerRank](https://www.hackerrank.com) is not necessarily for machine learning, but a great place to practice programming. I highly recommend it. It offers coding challenges for prizes.
- * [CERN open data](http://opendata.cern.ch) I don't have any experience with either of these open data resources, other than knowing they exist.
- * [CMS open data](http://opendata.cern.ch/docs/about-cms)
+## Data
+The data is in the `tutorial_1_data` and `tutorial_2_data` directories, respectively. You should not need to alter anything in here.
+
+## Bugs
+Please let me know if there are bugs or typos, so this can be a useful resource for everyone.
