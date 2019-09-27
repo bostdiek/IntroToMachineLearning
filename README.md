@@ -1,7 +1,13 @@
 # Intro To Machine Learning
-This contains information from a talk given to the University or Oregon Society of Physics Students (SPS). The Mathematica notebook shows how Gradient Descent works in the context of a 2-dimensional minimization problem. The associated video shows the minimization happening. There are also two versions of the talk (keynote and power point).
+This repository is the collection of ideas from being asked to explain machine learning. Initially, this was for an informal talk to the University of Oregon Society of Physics Students.
+- There are two versions of the intro talk (PowerPoint and Keynote).
+- The "TransferLearningClass" slides are about the idea of training a neural network for one task, and then re-purposing it for a similar task.
+- The "GradDescentGood.mp4" is a video clip showing how gradient descent works, and it was made using the Mathematica notebook called "GradientDescent.nb"
+- The Slides directory contains two lectures on machine learning for high energy physics which were given at the CTEQ2019 summer school.
 
-## Resources
+The tutorials from the CTEQ2019 summer school can be found in the Tutorials directory. Much of this was copied from the homeworks of the second class listed below.
+
+## Other Resources
 ### Online classes
   * [This class](https://www.coursera.org/learn/machine-learning/home/welcome) is a little older, and does the programming in Octave instead of python, but is a great class. This goes over many techniques beyond neural networks.
 
