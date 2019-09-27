@@ -5,7 +5,7 @@ This repository is the collection of ideas from being asked to explain machine l
 - The "GradDescentGood.mp4" is a video clip showing how gradient descent works, and it was made using the Mathematica notebook called "GradientDescent.nb"
 - The Slides directory contains two lectures on machine learning for high energy physics which were given at the CTEQ2019 summer school.
 
-The tutorials from the CTEQ2019 summer school can be found in the Tutorials directory. Much of this was copied from the homeworks of the second class listed below.
+The tutorials from the CTEQ2019 summer school can be found in the [Tutorials directory](https://github.com/bostdiek/IntroToMachineLearning/tree/master/Tutorials). Much of this was copied from the homeworks of the second class listed below.
 
 ## Other Resources
 ### Online classes
